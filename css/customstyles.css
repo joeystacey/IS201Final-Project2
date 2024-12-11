@@ -159,7 +159,7 @@
     color: #0056b3;
 }
 
-body {
+.game-button body {
     margin: 0;
     display: flex;
     justify-content: center;
@@ -170,11 +170,11 @@ body {
     font-family: Arial, sans-serif;
   }
   
-  canvas {
+  .game-button canvas {
     border: 2px solid #fff;
   }
 
-.return-home {
+  .game-button .return-home {
     position: absolute; /* Ensures it’s not affected by flexbox */
     top: 10px; /* Positions it at the top of the page */
     left: 10px; /* Adds spacing from the left edge */
@@ -189,7 +189,7 @@ body {
     z-index: 1000; /* Ensures it appears above all elements */
   }
   
-  .return-home:hover {
+  .game-button .return-home:hover {
     background-color: #0056b3; /* Darker blue on hover */
     transition: background-color 0.3s ease;
   }
